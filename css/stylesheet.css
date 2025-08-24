@@ -6,25 +6,31 @@
 
  
 header{
+    background-image: url("/img/peteribi.jpg"); /* ruta de la imagen */
+  background-repeat: no-repeat;           /* evita que se repita */
+  background-size: cover;                 /* la ajusta para cubrir toda la pantalla */
+  background-position: center;   
     padding: 100px
     ;
-    background-color:#867e6d ;
     text-align: center
     
 }
-header h1,h2{
+header h1{
 
-  font-family: "Poiret One", sans-serif,Arial, Helvetica, sans-serif;
-  font: weight 500px;;
+  font-family: sans-serif,Arial, Helvetica, sans-serif;
+  font-weight: normal;
   font-style: normal;
-
- 
-    color: rgb(95, 91, 66);
+   color: rgba(235, 235, 235, 0.774);
 }
-header img{
+header .pfp{
     height: 300px;
     width: 300px;
     border-radius: 600px;
+    background-image: url(/img/icon.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 114%;
+    margin: 0 auto;
 }
 
 main{
@@ -45,4 +51,7 @@ p{
     font-size: 18px;
     color: #867e6d;
     text-align: center;
+}
+a{
+    color: aliceblue;
 }
