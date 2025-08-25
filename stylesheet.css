@@ -26,7 +26,7 @@ header .pfp{
     height: 300px;
     width: 300px;
     border-radius: 600px;
-    background-image: url("img/icon.jpg");
+    background-image: url("/img/icon.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 114%;
@@ -79,9 +79,10 @@ color: rgb(94, 78, 54);
 
 
 footer{
-   background-image: url("img/peteribi.jpg")
+     
+   background-image: url("/img/peteribi-madersama.jpg");
     margin: 0 auto;
-    text-align: center;
+   text-align: center;
     padding: 80px;
     
 }
