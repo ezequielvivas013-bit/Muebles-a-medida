@@ -6,7 +6,7 @@
 
  
 header{
-    background-image: url("img/peteribi.jpg"); /* ruta de la imagen */
+    background-image: url("./img/peteribi.jpg"); /* ruta de la imagen */
   background-repeat: no-repeat;           /* evita que se repita */
   background-size: cover;                 /* la ajusta para cubrir toda la pantalla */
   background-position: center;   
@@ -79,7 +79,7 @@ color: rgb(94, 78, 54);
 
 
 footer{
-    background-image: url("img/peteribi.jpg");
+    background-image: url("./img/peteribi.jpg");
     margin: 0 auto;
     text-align: center;
     padding: 80px;
