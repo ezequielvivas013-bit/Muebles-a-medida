@@ -58,14 +58,20 @@ a{
     font-weight: 700;
 }
 main video{
-    text-align: center;
-    text-align: end;
-    padding: 150px;
-    margin-top: -78px;
-}
 
+    text-align: center;
+    padding: 90px;
+    margin-top: -78px;
+
+   
+}
+ h3
+{margin-top: 0% ;
+    font-size: 18px;
+    color: #918b7e;
+    text-align: center;}
 h4{
-    margin-top:-14%;
+       margin-top: -3%;
     text-align: center;
 color: rgb(94, 78, 54);
  font-weight: bold;
