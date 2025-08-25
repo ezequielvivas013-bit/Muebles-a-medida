@@ -35,7 +35,7 @@ header .pfp{
 
 main{
     width: 800px;
-    margin: 0 auto;
+    margin: 50px auto;
 
 }
 main img{
@@ -49,9 +49,37 @@ text-align: center;
 p{
     margin-top: 0% ;
     font-size: 18px;
-    color: #867e6d;
+    color: #918b7e;
     text-align: center;
 }
 a{
     color: aliceblue;
+    font-size: larger;
+    font-weight: 700;
+}
+main video{
+    text-align: center;
+    text-align: end;
+    padding: 150px;
+    margin-top: -78px;
+}
+
+h4{
+    margin-top:-14%;
+    text-align: center;
+color: rgb(94, 78, 54);
+ font-weight: bold;
+}
+
+
+footer{
+    background-image: url("/img/peteribi.jpg");
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px;
+    
+}
+h5{
+    font-size: x-large;
+    color: white;
 }
