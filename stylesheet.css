@@ -78,13 +78,12 @@ color: rgb(94, 78, 54);
 }
 
 
-footer{
-     
-   background-image: url("/img/peteribi-madersama.jpg");
-    margin: 0 auto;
-   text-align: center;
-    padding: 80px;
-    
+footer,div{ 
+        background-image: url(img/peteribi-madersama.jpg) !important;
+        
+       width: 100px;
+       padding: 80px;
+       text-align: center;
 }
 
 h5{
