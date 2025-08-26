@@ -6,7 +6,10 @@
 
  
 header{
+  
     background-image: url(/img/peteribi.jpg); /* ruta de la imagen */
+    margin: 0 auto;
+    padding: 0 auto;
   background-repeat: no-repeat;           /* evita que se repita */
   background-size: cover;                 /* la ajusta para cubrir toda la pantalla */
   background-position: center;   
