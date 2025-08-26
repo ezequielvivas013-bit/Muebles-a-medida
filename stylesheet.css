@@ -6,13 +6,13 @@
 
  
 header{
-    background-image: url("img/peteribi.jpg")  ; /* ruta de la imagen */
+    background-image: url(/img/peteribi.jpg)  ; /* ruta de la imagen */
   background-repeat: no-repeat;           /* evita que se repita */
   background-size: cover;                 /* la ajusta para cubrir toda la pantalla */
   background-position: center;   
-    padding: 100px;
-
-    text-align: center;
+    padding: 100px
+    ;
+    text-align: center
     
 }
 header h1{
@@ -26,7 +26,7 @@ header .pfp{
     height: 300px;
     width: 300px;
     border-radius: 600px;
-    background-image: url("/img/icon.jpg");
+    background-image: url(img/icon.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 114%;
@@ -39,8 +39,7 @@ main{
 
 }
 main img{
-    margin: 0;
-    padding: 0;
+
 width: 600px;
 padding-left: 11%;
 text-align: center;
@@ -78,14 +77,13 @@ color: rgb(94, 78, 54);
 }
 
 
-footer,div{ 
-        background-image: url(img/peteribi-madersama.jpg) !important;
-        
-       width: 100px;
-       padding: 80px;
-       text-align: center;
+footer{
+   background-image: url(/img/peteribi.jpg);
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px;
+    
 }
-
 h5{
     font-size: x-large;
     color: white;
